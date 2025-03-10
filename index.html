@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Escala de Apoio CMEIV</title>
-    <link rel="stylesheet" href="sytle.css">
-    <script src="functin.js"></script>
+    <link rel="stylesheet" href="css/sytle.css">
+    <script type="module" src="js/script.js"></script>
 </head>
 
 <body>
@@ -15,49 +15,14 @@
             <thead>
                 <tr>
                     <th>Horário</th>
-                    <th class="diaAtual">Seg <br><small>07/03/25</small></th>
-                    <th class="diaSemana">Ter <br><small>07/03/25</small></th>
-                    <th class="diaSemana">Qua <br><small>07/03/25</small></th>
-                    <th class="diaSemana">Qui <br><small>07/03/25</small></th>
-                    <th class="diaSemana">Sex <br><small>07/03/25</small></th>
+                    <th>Segunda</th>
+                    <th>Terça</th>
+                    <th>Quarta</th>
+                    <th>Quinta</th>
+                    <th>Sexta</th>
                 </tr>
             </thead>
-            <tbody>
-                <tr>
-                    <td>08:00 - 08:20</td>
-                    <td id="2025-03-07T18:15" data-duracao="20">Jira</td>
-                    <td id="2025-03-07T19:39" data-duracao="20">Jorge</td>
-                    <td id="2025-03-05T08:00" data-duracao="20">Rangel</td>
-                    <td id="2025-03-06T08:00" data-duracao="20">Alessio</td>
-                    <td id="2025-03-07T16:00" data-duracao="20">Romulo</td>
-                </tr>
-
-                <tr>
-                    <td>12:00 - 12:30</td>
-                    <td id="2025-03-03T12:00" data-duracao="30">Jorge</td>
-                    <td id="2025-03-04T12:00" data-duracao="30">John</td>
-                    <td id="2025-03-05T12:00" data-duracao="30">Rangel</td>
-                    <td id="2025-03-06T12:00" data-duracao="30">Romulo</td>
-                    <td id="2025-03-07T12:00" data-duracao="30">Alessio</td>
-
-                </tr>
-                <tr>
-                    <td>12:30 - 13:00</td>
-                    <td id="2025-03-03T12:30" data-duracao="30">Jorge</td>
-                    <td id="2025-03-04T12:30" data-duracao="30">John</td>
-                    <td id="2025-03-05T12:30" data-duracao="30">Rangel</td>
-                    <td id="2025-03-06T12:30" data-duracao="30">Romulo</td>
-                    <td id="2025-03-07T12:30" data-duracao="30">Alessio</td>
-                </tr>
-                <tr>
-                    <td>15:00 - 15:20</td>
-                    <td id="2025-03-03T15:00" data-duracao="20">Jorge</td>
-                    <td id="2025-03-04T15:00" data-duracao="20">John</td>
-                    <td id="2025-03-05T15:00" data-duracao="20">Rangel</td>
-                    <td id="2025-03-07T15:00" data-duracao="20">Romulo</td>
-                    <td id="2025-03-07T15:00" data-duracao="20">Alessio</td>
-                </tr>
-            </tbody>
+            <tbody id="escalasDaSemana"></tbody>
         </table>
     </div>
 
