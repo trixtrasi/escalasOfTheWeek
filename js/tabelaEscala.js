@@ -16,7 +16,7 @@ export function povoarTabela() {
 
     escalas.forEach(diaEscala => {
         let dateHead = new Date(diaEscala.data);
-        let dd_mm = dateHead.getDate().toString().padStart(2, '0') + "/" + dateHead.getMonth().toString().padStart(2, '0');
+        let dd_mm = (dateHead.getDate()+1).toString().padStart(2, '0') + "/" + (dateHead.getMonth()+1).toString().padStart(2, '0');
 
         colunasHead += `<th>${diaEscala.diaSemana}<br><small>${dd_mm}</small></th>`;
     });
