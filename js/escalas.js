@@ -4,7 +4,7 @@ export const horarios = {
     1: [{ inicio: "12:00", duracao: 30 }],
     2: [{ inicio: "12:30", duracao: 30 }],
     3: [{ inicio: "15:00", duracao: 20 }],
-    4: [{ inicio: "18:00", duracao: 20 }],
+    
     //adicionando mais horarios
     //4: [{ inicio: "19:00", duracao: 60 }]
 };
