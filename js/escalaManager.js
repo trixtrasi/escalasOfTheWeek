@@ -1,6 +1,6 @@
 export function formatarHora(data) {
     if (!data) return "Sem escala";
-    const dia = data.getDate().toString().padStart(2, '0') + "/" + data.getMonth().toString().padStart(2, '0');
+    const dia = (data.getDate()+1).toString().padStart(2, '0') + "/" + (data.getMonth()+1).toString().padStart(2, '0');
     const horas = data.getHours().toString().padStart(2, '0');
     const minutos = data.getMinutes().toString().padStart(2, '0');
 
