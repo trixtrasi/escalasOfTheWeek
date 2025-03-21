@@ -11,7 +11,7 @@ export const horarios = {
 export const escalas = [
     {
         diaSemana: "Segunda-Feira",
-        data: "2025-03-21",
+        data: "2025-03-24",
         escalas: [
             { hora: 0, nome: "John" },
             { hora: 1, nome: "Romulo" },
