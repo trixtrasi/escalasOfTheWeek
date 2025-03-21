@@ -12,54 +12,53 @@ export const horarios = {
 export const escalas = [
     {
         diaSemana: "Segunda-Feira",
-        data: "2025-03-10",
+        data: "2025-03-24",
         escalas: [
-            { hora: 0, nome: "Alferes Lucas" },
-            { hora: 1, nome: "Sargento Mariana" },
-            { hora: 2, nome: "Cabo Carlos" },
-            { hora: 3, nome: "Tenente Sofia" }
+            { hora: 0, nome: "John" },
+            { hora: 1, nome: "Romulo" },
+            { hora: 2, nome: "Rangel" },
+            { hora: 3, nome: "Alessio" }
         ]
     },
     {
         diaSemana: "Terça-Feira",
-        data: "2025-03-11",
+        data: "2025-03-25",
         escalas: [
-            { hora: 0, nome: "Capitão Pedro" },
-            { hora: 1, nome: "Major Rita" },
-            { hora: 2, nome: "Coronel João" },
-            { hora: 3, nome: "General Beatriz" }
+            { hora: 0, nome: "Rangel" },
+            { hora: 1, nome: "Cardoso" },
+            { hora: 2, nome: "Romulo" },
+            { hora: 3, nome: "Rogerio" }
         ]
     },
     {
         diaSemana: "Quarta-Feira",
-        data: "2025-03-12",
+        data: "2025-03-26",
         escalas: [
-            { hora: 0, nome: "Comodoro Gustavo" },
-            { hora: 1, nome: "Alferes Fernanda" },
-            { hora: 2, nome: "Alferes Lucas" },
-            { hora: 3, nome: "Web Master Alessio" },
-            { hora: 4, nome: "Fernando do RH" }
+            { hora: 0, nome: "Romulo" },
+            { hora: 1, nome: "John" },
+            { hora: 2, nome: "Rangel" },
+            { hora: 3, nome: "Odirlei" },
         ]
     },
     {
         diaSemana: "Quinta-Feira",
-        data: "2025-03-13",
+        data: "2025-03-27",
         escalas: [
-            { hora: 0, nome: "Tenente Gojira" },
-            { hora: 1, nome: "Major Fernando" },
-            { hora: 2, nome: "Alferes Rangel" },
-            { hora: 3, nome: "Web Master Alessio" }
+            { hora: 0, nome: "John" },
+            { hora: 1, nome: "Cardoso" },
+            { hora: 2, nome: "Alessio" },
+            { hora: 3, nome: "Rogerio" }
 
         ]
     },
     {
         diaSemana: "Sexta-Feira",
-        data: "2025-03-14",
+        data: "2025-03-28",
         escalas: [
-            { hora: 0, nome: "General Ricardo" },
-            { hora: 1, nome: "Sargento Juliana" },
-            { hora: 2, nome: "Cabo Rangel" },
-            { hora: 3, nome: "Web Master Alessio" }
+            { hora: 0, nome: "Cardoso" },
+            { hora: 1, nome: "Alessio" },
+            { hora: 2, nome: "Rogerio" },
+            { hora: 3, nome: "Odirlei" }
         ]
     }
 ];
