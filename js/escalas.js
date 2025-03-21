@@ -4,7 +4,7 @@ export const horarios = {
     1: [{ inicio: "12:00", duracao: 30 }],
     2: [{ inicio: "12:30", duracao: 30 }],
     3: [{ inicio: "15:00", duracao: 20 }],
-    
+    4: [{ inicio: "17:35", duracao: 20 }],
     //adicionando mais horarios
     //4: [{ inicio: "19:00", duracao: 60 }]
 };
@@ -12,12 +12,13 @@ export const horarios = {
 export const escalas = [
     {
         diaSemana: "Segunda-Feira",
-        data: "2025-03-24",
+        data: "2025-03-21",
         escalas: [
             { hora: 0, nome: "John" },
             { hora: 1, nome: "Romulo" },
             { hora: 2, nome: "Rangel" },
-            { hora: 3, nome: "Alessio" }
+            { hora: 3, nome: "Alessio" },
+            { hora: 4, nome: "Alessio" }
         ]
     },
     {
