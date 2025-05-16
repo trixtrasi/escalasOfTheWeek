@@ -11,7 +11,7 @@ export const horarios = {
 export const escalas = [
     {
         diaSemana: "Segunda-Feira",
-        data: "2025-03-24",
+        data: "2025-05-19",
         escalas: [
             { hora: 0, nome: "Cardoso" },
             { hora: 1, nome: "John" },
@@ -21,7 +21,7 @@ export const escalas = [
     },
     {
         diaSemana: "Terça-Feira",
-        data: "2025-03-25",
+        data: "2025-05-20",
         escalas: [
             { hora: 0, nome: "John" },
             { hora: 1, nome: "Cardoso" },
@@ -31,7 +31,7 @@ export const escalas = [
     },
     {
         diaSemana: "Quarta-Feira",
-        data: "2025-03-26",
+        data: "2025-05-21",
         escalas: [
             { hora: 0, nome: "Cardoso" },
             { hora: 1, nome: "John" },
@@ -41,7 +41,7 @@ export const escalas = [
     },
     {
         diaSemana: "Quinta-Feira",
-        data: "2025-03-27",
+        data: "2025-05-22",
         escalas: [
             { hora: 0, nome: "John" },
             { hora: 1, nome: "Cardoso" },
@@ -52,7 +52,7 @@ export const escalas = [
     },
     {
         diaSemana: "Sexta-Feira",
-        data: "2025-03-28",
+        data: "2025-05-23",
         escalas: [
             { hora: 0, nome: "Cardoso" },
             { hora: 1, nome: "John" },
