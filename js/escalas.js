@@ -1,6 +1,6 @@
 //não é necessário mexer aqui. move along. Só se quiser alterar o horario
 export const horarios = {
-    0: [{ inicio: "08:00", duracao: 20 }],
+    0: [{ inicio: "09:00", duracao: 20 }],
     1: [{ inicio: "12:00", duracao: 30 }],
     2: [{ inicio: "12:30", duracao: 30 }],
     3: [{ inicio: "15:00", duracao: 20 }],
@@ -13,9 +13,9 @@ export const escalas = [
         diaSemana: "Segunda-Feira",
         data: "2025-03-24",
         escalas: [
-            { hora: 0, nome: "John" },
-            { hora: 1, nome: "Romulo" },
-            { hora: 2, nome: "Rangel" },
+            { hora: 0, nome: "Cardoso" },
+            { hora: 1, nome: "John" },
+            { hora: 2, nome: "Romulo" },
             { hora: 3, nome: "Alessio" },
             ]
     },
@@ -23,19 +23,19 @@ export const escalas = [
         diaSemana: "Terça-Feira",
         data: "2025-03-25",
         escalas: [
-            { hora: 0, nome: "Rangel" },
+            { hora: 0, nome: "John" },
             { hora: 1, nome: "Cardoso" },
-            { hora: 2, nome: "Romulo" },
-            { hora: 3, nome: "Rogerio" }
+            { hora: 2, nome: "Odirlei" },
+            { hora: 3, nome: "Romulo" }
         ]
     },
     {
         diaSemana: "Quarta-Feira",
         data: "2025-03-26",
         escalas: [
-            { hora: 0, nome: "Romulo" },
+            { hora: 0, nome: "Cardoso" },
             { hora: 1, nome: "John" },
-            { hora: 2, nome: "Rangel" },
+            { hora: 2, nome: "Alessio" },
             { hora: 3, nome: "Odirlei" },
         ]
     },
@@ -45,8 +45,8 @@ export const escalas = [
         escalas: [
             { hora: 0, nome: "John" },
             { hora: 1, nome: "Cardoso" },
-            { hora: 2, nome: "Alessio" },
-            { hora: 3, nome: "Rogerio" }
+            { hora: 2, nome: "Romulo" },
+            { hora: 3, nome: "Alessio" }
 
         ]
     },
@@ -55,9 +55,9 @@ export const escalas = [
         data: "2025-03-28",
         escalas: [
             { hora: 0, nome: "Cardoso" },
-            { hora: 1, nome: "Alessio" },
-            { hora: 2, nome: "Rogerio" },
-            { hora: 3, nome: "Odirlei" }
+            { hora: 1, nome: "John" },
+            { hora: 2, nome: "Odirlei" },
+            { hora: 3, nome: "Romulo" }
         ]
     }
 ];
