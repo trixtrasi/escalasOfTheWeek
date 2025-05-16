@@ -15,7 +15,7 @@ export const escalas = [
         escalas: [
             { hora: 0, nome: "Cardoso" },
             { hora: 1, nome: "John" },
-            { hora: 2, nome: "Romulo" },
+            { hora: 2, nome: "Odirlei" },
             { hora: 3, nome: "Alessio" },
             ]
     },
@@ -25,7 +25,7 @@ export const escalas = [
         escalas: [
             { hora: 0, nome: "John" },
             { hora: 1, nome: "Cardoso" },
-            { hora: 2, nome: "Odirlei" },
+            { hora: 2, nome: "Romulo" },
             { hora: 3, nome: "Romulo" }
         ]
     },
